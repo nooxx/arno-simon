@@ -1,6 +1,7 @@
 node_modules/
 .idea/
 public/app*
+elements/
 Homestead.json
 Homestead.yaml
 npm-debug.log
