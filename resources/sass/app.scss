@@ -1,3 +1,9 @@
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/modal";
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -31,6 +37,7 @@
 @import 'components/icons';
 @import 'components/table';
 @import 'components/button';
+@import 'components/Portfolio';
 
 // Layout.
 @import 'layout/bg';

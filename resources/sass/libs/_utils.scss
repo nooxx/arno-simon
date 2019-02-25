@@ -1,15 +1,35 @@
-.text-normal{
+.text-normal {
   font-weight: normal !important;
   text-transform: initial !important;
 }
 
-.letter-spacing-0{
+.letter-spacing-0 {
   letter-spacing: initial !important;
 }
-.no-decoration{
+
+.no-decoration {
   text-decoration: none !important;
 }
 
-.d-inline-block{
+.d-inline-block {
   display: inline-block !important;
 }
+
+.modal-body {
+  padding: 0 !important;
+  height: 350px;
+  background-color: transparent;
+}
+
+.modal-content{
+  background-color: transparent;
+}
+
+.modal-dialog {
+  background-color: transparent;
+
+  @include media-breakpoint-down(xs) {
+    margin: 2rem 1rem;
+  }
+}
+

@@ -48,7 +48,7 @@
     <div id="main">
         <!-- Intro -->
         <article id="intro">
-            <h2 class="major">Intro</h2>
+            <h2 class="major">About me</h2>
             <span class="image main"><img src="images/about-me.webp" alt="About me"/></span>
             <p>I'm from Brittany in France. Currently 25 years old, I am living in London and working full time for a
                 medium sized digital agency called <a href="https://finervision.com">Finervision</a>.
@@ -72,7 +72,62 @@
         <!-- Portfolio -->
         <article id="portfolio">
             <h2 class="major">Portfolio</h2>
-            <h4>Coming soon</h4>
+            <p>Below is a list of projects that I have done entirely / been involved massively. Some of them have been
+                made at <a href="https://finervision.com/">Finervision</a>. This list is non exhaustive list as there
+                are projects that can't be shown to the public such as internal tools.</p>
+            <div class="Portfolio">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 text-center">
+                            <div class="Portfolio__item">
+                                <a href="https://paypoint.com" class="icon" target="_blank">
+                                    <img src="images/paypoint-logo.webp" class="Portfolio__item__image" alt="PayPoint">
+                                </a>
+                                <div class="Portfolio__item__body">
+                                    <a href="https://paypoint.com" target="_blank">
+                                        <h5 class="">PayPoint.com</h5>
+                                    </a>
+                                    <p class="">Biggest payment service in the UK.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="Portfolio__item">
+                                <a href="https://www.sledge.co.uk/" class="icon" target="_blank">
+                                    <img src="images/sledge.webp" class="Portfolio__item__image" alt="Sledge">
+                                </a>
+                                <div class="Portfolio__item__body">
+                                    <a href="https://www.sledge.co.uk/" target="_blank">
+                                        <h5 class="">sledge.co.uk</h5>
+                                    </a>
+                                    <p class="">Curators of Live Experience & Film.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="Portfolio__item Portfolio__item--video">
+                                <a
+                                        href="#portfolio"
+                                        class="icon toggleModal"
+                                        data-target="#modal-dhl"
+                                        data-video="http://www.youtube.com/embed/_-B46DHZsWM"
+                                >
+                                    <img src="images/dhl-logo.webp" class="Portfolio__item__image" alt="DHL">
+                                </a>
+
+                                <div class="Portfolio__item__body">
+                                    <a href="#" data-toggle="modal" data-target="#videoModal">
+                                        <h5 class="">DHL Touchscreen</h5>
+                                    </a>
+                                    <p class="">Showcase touchscreen for DHL.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
     </div>
 
@@ -103,6 +158,17 @@
 
 <!-- BG -->
 <div id="bg"></div>
+
+<!-- Modals -->
+<div class="modal fade" id="modal-dhl" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe width="100%" height="350" src=""></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Scripts -->
 <script src="breakpoints.min.js"></script>

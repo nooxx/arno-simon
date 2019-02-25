@@ -1,0 +1,25 @@
+.Portfolio {
+
+  [class*=' col-'] {
+    text-align: center;
+  }
+
+  &__item {
+
+    a,p{
+      text-align: left;
+      @include media-breakpoint-down(xs){
+        text-align: center;
+      }
+    }
+    &__image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    &--video{
+
+    }
+  }
+}
